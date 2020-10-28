@@ -44,6 +44,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $title-light-theme-color;
+
+    @media screen and (min-width: $tablet) {
+      align-self: flex-start;
+    }
   }
 
   &__description {
