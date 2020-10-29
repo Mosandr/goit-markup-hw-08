@@ -2,10 +2,6 @@ body {
   font-family: $main-font;
   font-style: normal;
   margin: 0 auto;
-
-  @media screen and (min-width: $desktop) {
-    width: 1600px;
-  }
 }
 
 .list {
