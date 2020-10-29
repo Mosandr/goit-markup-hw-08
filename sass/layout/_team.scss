@@ -56,8 +56,12 @@
 
   &__img {
     margin-bottom: 30px;
-    width: 450px;
-    height: 460px;
+    width: 100%;
+
+    @media screen and (min-width: $mobile) {
+      width: 450px;
+      height: 460px;
+    }
 
     @media screen and (min-width: $tablet) {
       width: 354px;

@@ -15,6 +15,12 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1600px;
+  }
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -34,12 +40,12 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
+    margin-left: auto;
+    margin-right: auto;
     width: 480px;
   }
 }
@@ -328,8 +334,37 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__wrapper {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
 .footer__address-wrapper {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__address-wrapper {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__address-wrapper {
+    flex-basis: 270px;
+    text-align: start;
+    margin-bottom: 0px;
+  }
 }
 
 .footer .footer-address__list {
@@ -376,8 +411,37 @@ body {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-social-links {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-social-links {
+    margin-bottom: 0;
+    flex-basis: 270px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    margin-bottom: 0;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-form {
+    flex-basis: 570px;
+    text-align: start;
+  }
+}
+
 .subscribe-form__input {
-  display: block;
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
@@ -394,5 +458,24 @@ body {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form__input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-form__input {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    width: 358px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */
