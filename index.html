@@ -133,7 +133,8 @@
             <li class="services__item">
               <img
                 class="services__img"
-                src="./images/mainpage/services/service1.jpg"
+                src="./images/mainpage/services/service1@1x.jpg"
+                srcset="./images/mainpage/services/service1@1x.jpg 1x, ./images/mainpage/services/service1@2x.jpg 2x "
                 alt="человек пишет код на компьютере"
                 width="370"
                 height="294"
@@ -141,23 +142,15 @@
               <p class="services__subtitle">Десктопные приложения</p>
             </li>
             <li class="services__item">
-              <img
-                class="services__img"
-                src="./images/mainpage/services/service2.jpg"
-                alt="человек сморит на ноутбуке дизайны мобильных приложений и держит смартфон в руках"
-                width="370"
-                height="294"
-              />
+              <img class="services__img" src="./images/mainpage/services/service2@1x.jpg"
+                srcset="./images/mainpage/services/service2@1x.jpg 1x, ./images/mainpage/services/service2@2x.jpg 2x "
+                alt="человек пишет код на компьютере" width="370" height="294" />
               <p class="services__subtitle">Мобильные приложения</p>
             </li>
             <li class="services__item">
-              <img
-                class="services__img"
-                src="./images/mainpage/services/service3.jpg"
-                alt="руки человека держат планшет с изображением палитры цветов"
-                width="370"
-                height="294"
-              />
+              <img class="services__img" src="./images/mainpage/services/service3@1x.jpg"
+                srcset="./images/mainpage/services/service3@1x.jpg 1x, ./images/mainpage/services/service3@2x.jpg 2x "
+                alt="человек пишет код на компьютере" width="370" height="294" />
               <p class="services__subtitle">Дизайнерские решения</p>
             </li>
           </ul>
@@ -169,12 +162,12 @@
           <h2 class="team__title title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/mainpage/team/team-member1.jpg"
-                alt="мужчина в очках и коричневой ребашке улыбаеться"
-                width="270"            
-              />
+              <picture>
+                <source srcset="" 
+                media="(min-width: 1200px)">
+                <img class="team__img" src="./images/mainpage/team/team-member1-tab@1x.jpg"
+                  alt="мужчина в очках и коричневой ребашке улыбаеться" width="270" />
+              </picture>
               <h3 class="team__subtitle">Игорь Демьяненко</h3>
               <p class="team__description" lang="en">Product Designer</p>
               <ul class="social-links list">
