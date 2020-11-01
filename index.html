@@ -163,10 +163,23 @@
           <ul class="team__list list">
             <li class="team__item">
               <picture>
-                <source srcset="" 
-                media="(min-width: 1200px)">
-                <img class="team__img" src="./images/mainpage/team/team-member1-tab@1x.jpg"
-                  alt="мужчина в очках и коричневой ребашке улыбаеться" width="270" />
+                <source 
+                media="(min-width: 1200px)" 
+                srcset="
+                ./images/mainpage/team/team1-desk@1x.jpg 1x, 
+                ./images/mainpage/team/team1-desk@2x.jpg 2x">
+                <source 
+                media="(min-width: 768px)" 
+                srcset="
+                ./images/mainpage/team/team1-tab@1x.jpg 1x, 
+                ./images/mainpage/team/team1-tab@2x.jpg 2x">
+                <source media="(min-width: 480px)" 
+                srcset="
+                                ./images/mainpage/team/team1-mob@1x.jpg 1x, 
+                                ./images/mainpage/team/team1-mob@2x.jpg 2x">
+                
+                <img class="team__img" src="./images/mainpage/team/team1-tab@1x.jpg"
+                  alt="мужчина в очках и коричневой ребашке улыбаеться">
               </picture>
               <h3 class="team__subtitle">Игорь Демьяненко</h3>
               <p class="team__description" lang="en">Product Designer</p>
@@ -218,12 +231,21 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/mainpage/team/team-member2.jpg"
-                alt="женщина в очках и черном педжаке улыбаеться"
-                width="270"            
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="
+                                ./images/mainpage/team/team2-desk@1x.jpg 1x, 
+                                ./images/mainpage/team/team2-desk@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="
+                                ./images/mainpage/team/team2-tab@1x.jpg 1x, 
+                                ./images/mainpage/team/team2-tab@2x.jpg 2x">
+                <source media="(min-width: 480px)" srcset="
+                                                ./images/mainpage/team/team2-mob@1x.jpg 1x, 
+                                                ./images/mainpage/team/team2-mob@2x.jpg 2x">
+                <img class="team__img" 
+                src="./images/mainpage/team/team2-tab@1x.jpg" 
+                alt="женщина в очках и черном педжаке улыбаеться"/>
+              </picture>
+              
               <h3 class="team__subtitle">Ольга Репина</h3>
               <p class="team__description" lang="en">Frontend Developer</p>
               <ul class="social-links list">
@@ -274,12 +296,21 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/mainpage/team/team-member3.jpg"
-                alt="мужчина в белой ребашке улыбаеться"
-                width="270"                
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="
+                                                ./images/mainpage/team/team3-desk@1x.jpg 1x, 
+                                                ./images/mainpage/team/team3-desk@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="
+                                                ./images/mainpage/team/team3-tab@1x.jpg 1x, 
+                                                ./images/mainpage/team/team3-tab@2x.jpg 2x">
+                <source media="(min-width: 480px)" srcset="
+                                                ./images/mainpage/team/team3-mob@1x.jpg 1x, 
+                                                ./images/mainpage/team/team3-mob@2x.jpg 2x">
+                <img class="team__img" 
+                src="./images/mainpage/team/team3-tab@1x.jpg" 
+                alt="мужчина в белой ребашке улыбаеться" />
+              </picture>
+              
               <h3 class="team__subtitle">Николай Тарасов</h3>
               <p class="team__description" lang="en">Marketing</p>
               <ul class="social-links list">
@@ -330,12 +361,21 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/mainpage/team/team-member4.jpg"
-                alt="мужчина в очках и черной футболке улыбаеться"
-                width="270"              
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="
+                                                                ./images/mainpage/team/team4-desk@1x.jpg 1x, 
+                                                                ./images/mainpage/team/team4-desk@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="
+                                                                ./images/mainpage/team/team4-tab@1x.jpg 1x, 
+                                                                ./images/mainpage/team/team4-tab@2x.jpg 2x">
+                <source media="(min-width: 480px)" srcset="
+                                                                ./images/mainpage/team/team4-mob@1x.jpg 1x, 
+                                                                ./images/mainpage/team/team4-mob@2x.jpg 2x">
+              <img class="team__img" 
+              src="./images/mainpage/team/team4-tab@1x.jpg" 
+              alt="мужчина в очках и черной футболке улыбаеться"/>
+              </picture>
+              
               <h3 class="team__subtitle">Михаил Ермаков</h3>
               <p class="team__description" lang="en">UI Designer</p>
               <ul class="social-links list">
